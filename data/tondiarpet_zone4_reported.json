@@ -1,0 +1,212 @@
+{
+  "_note": "REPORTED figures copied from three team-supplied Zone 4 (Tondiarpet) reports, October 2026. Not live data. Verify against GCC sources before quoting.",
+  "sources": {
+    "R1": "GCC Municipal Solid Waste Management Report - Zone 4 (Tondiarpet) Comprehensive Evaluation & Strategic Review, Oct 2026",
+    "R2": "Municipal Solid Waste Optimization Framework - Tondiarpet (Zone 4), GCC, Oct 2026 (hackathon proposal)",
+    "R3": "Tondiarpet (Zone 4) Waste Management Evaluation - 5-Year Comparative Analysis 2021-2026"
+  },
+  "zone_profile": {
+    "daily_waste_mt": {
+      "min": 380,
+      "max": 420,
+      "src": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    "city_daily_waste_mt": {
+      "value": 6150,
+      "src": [
+        "R1"
+      ]
+    },
+    "per_capita_kg_day": {
+      "zone": 0.75,
+      "city": 0.71,
+      "src": [
+        "R1"
+      ]
+    },
+    "organic_share_pct": {
+      "zone": 54,
+      "city": 52,
+      "src": [
+        "R1"
+      ]
+    },
+    "city_plastics_share_pct": {
+      "value": 9.5,
+      "src": [
+        "R1"
+      ]
+    },
+    "disposal": {
+      "zone": "Kodungaiyur Dump Yard",
+      "city": "Kodungaiyur & Perungudi",
+      "src": [
+        "R1"
+      ]
+    },
+    "residents_dissatisfied_pct": {
+      "value": 35,
+      "qualifier": "nearly",
+      "src": [
+        "R1"
+      ]
+    },
+    "max_uncollected_hours_wards_38_39": {
+      "value": 14,
+      "src": [
+        "R3"
+      ]
+    }
+  },
+  "segregation_compliance_upper_bound_pct": {
+    "2021_2023": {
+      "value": 30,
+      "src": [
+        "R3"
+      ]
+    },
+    "current": {
+      "value": 45,
+      "src": [
+        "R2"
+      ]
+    }
+  },
+  "wards": [
+    {
+      "ward": 38,
+      "localities": "Elaya Street, Korukkupet slum belts",
+      "bottleneck": "Commercial transit mixing; open dumpster overflow",
+      "src": "R2"
+    },
+    {
+      "ward": 39,
+      "localities": "Vaithyanathan Street, Old Washermanpet",
+      "bottleneck": "Lanes under 3 m (R2) / 2.5 m (R3); compactors cannot enter",
+      "src": "R2, R3"
+    },
+    {
+      "ward": 42,
+      "localities": "Tondiarpet High Road, Ennore Expressway link",
+      "bottleneck": "Industrial run-off; non-segregated commercial waste",
+      "src": "R2"
+    },
+    {
+      "ward": 45,
+      "localities": "Seni Amman Koil Street, Nethaji Nagar",
+      "bottleneck": "High domestic organic load; slow collection rotations",
+      "src": "R2"
+    }
+  ],
+  "dbfot": {
+    "contract_years": 10,
+    "slas": 43,
+    "blackspot_clearance_hours": 24,
+    "src": [
+      "R3"
+    ]
+  },
+  "fines_inr_R3": [
+    {
+      "offence": "Failure to segregate at source",
+      "residential": 100,
+      "commercial": 500
+    },
+    {
+      "offence": "Littering / dumping in public spaces",
+      "residential": 500,
+      "commercial": 1000
+    },
+    {
+      "offence": "Open burning of waste",
+      "residential": 500,
+      "commercial": 2000
+    },
+    {
+      "offence": "Dumping C&D debris",
+      "residential": 2000,
+      "commercial": 5000
+    },
+    {
+      "offence": "Bulk generator not managing organic waste on site",
+      "residential": null,
+      "commercial": "5000-25000"
+    }
+  ],
+  "fines_inr_R2": [
+    {
+      "tier": "Individual residential",
+      "violation": "Failure to segregate wet / dry / hazardous",
+      "fine": 100
+    },
+    {
+      "tier": "Bulk generator (residential)",
+      "violation": "Composting / zero-waste failure",
+      "fine": 5000
+    },
+    {
+      "tier": "Commercial outlets / shops",
+      "violation": "Littering pathways or commercial mixing",
+      "fine": "500-2000"
+    },
+    {
+      "tier": "Industrial / institutional",
+      "violation": "Illegal dumping of bulk C&D / hazardous items",
+      "fine": "10000-25000"
+    }
+  ],
+  "kodungaiyur": {
+    "biomining_cost_crore": {
+      "R3": 640.8,
+      "R1_R2": 641
+    },
+    "legacy_waste_lakh_tonnes": 66,
+    "area_acres": {
+      "R3": 335,
+      "R1_R2_reclaim": 250
+    },
+    "processing_tonnes_day": {
+      "value": 10000,
+      "src": "R3"
+    },
+    "bio_cng_plant": {
+      "capacity_tonnes": 500,
+      "cost_crore": 99,
+      "src": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    "wte_mw": {
+      "value": 20.76,
+      "src": "R1"
+    }
+  },
+  "contacts": [
+    {
+      "office": "GCC Central Helpline",
+      "channel": "1913"
+    },
+    {
+      "office": "Zone 4 Sanitation Desk",
+      "channel": "044-25912161 / 25915412"
+    },
+    {
+      "office": "Zone 4 Zonal Office",
+      "channel": "266, Thiruvottiyur High Road, Tondiarpet"
+    },
+    {
+      "office": "Zonal Officer (Zone 4)",
+      "channel": "z4.gcc@chennaicorporation.gov.in"
+    },
+    {
+      "office": "Kodungaiyur Bio-Mining Unit",
+      "channel": "gcc.solidwaste@chennaicorporation.gov.in"
+    }
+  ]
+}

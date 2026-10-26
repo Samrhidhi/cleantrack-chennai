@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # The single-file layout (needed for DartPad) uses a few private
+    # widget classes and long build methods on purpose.
+    prefer_const_constructors: false
+    use_key_in_widget_constructors: false

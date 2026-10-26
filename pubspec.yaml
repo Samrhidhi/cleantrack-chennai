@@ -1,0 +1,22 @@
+name: cleantrack_chennai
+description: >-
+  CleanTrack Chennai - smart municipal waste management prototype: chronic
+  Garbage Vulnerable Point detection, sensor-driven need-based routing,
+  ward segregation scoring and photo + GPS verified complaint closure.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

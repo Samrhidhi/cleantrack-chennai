@@ -1,0 +1,41 @@
+{
+  "_note": "DEMO fleet.",
+  "trucks": [
+    {
+      "id": "TRK-ET-01",
+      "name": "Zone 4 Micro-Collector",
+      "type": "e_tricycle",
+      "fuel": "electric",
+      "capacity_kg": 500,
+      "start": "Tondiarpet ward centre",
+      "status": "available"
+    },
+    {
+      "id": "TRK-CMP-02",
+      "name": "Central Compactor A",
+      "type": "compactor",
+      "fuel": "diesel",
+      "capacity_kg": 8000,
+      "start": "Depot",
+      "status": "available"
+    },
+    {
+      "id": "TRK-CMP-03",
+      "name": "South Compactor B",
+      "type": "compactor",
+      "fuel": "diesel",
+      "capacity_kg": 8000,
+      "start": "Adyar ward centre",
+      "status": "available"
+    },
+    {
+      "id": "TRK-SWP-04",
+      "name": "Boulevard Sweeper",
+      "type": "sweeper",
+      "fuel": "diesel",
+      "capacity_kg": 2000,
+      "start": "Anna Nagar ward centre",
+      "status": "maintenance"
+    }
+  ]
+}
